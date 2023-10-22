@@ -7,7 +7,7 @@
 
 body.dark-bg,
 body.default-asus {
-    background: url("/bootstrap/img/dark-bg.jpg") repeat scroll center top transparent;
+    background-color: #282828;
 }
 body.wood{
     background: url("../img/bg/wood.jpg") repeat scroll center top transparent;
@@ -311,7 +311,7 @@ div.xiaomi-hat {
 div.xiaomi-face {
     background-image: url("../img/logo/xiaomi_face.png") !important;
     width: 220px !important;
-    height: 100px !important;
+    height: 110px !important;
 }
 div.xiaomi-bag {
     background-image: url("../img/logo/xiaomi_bag.png") !important;
@@ -389,6 +389,27 @@ div.dlink {
     background-image: url("../img/logo/dlink.png") !important;
     width: 220px !important;
     height: 100px !important;
+}
+div.TL_C20-V1_16M,
+div.tplink {
+    background-image: url("../img/logo/tplink.png") !important;
+    width: 150px !important;
+    height: 71px !important;
+}
+div.redmi {
+    background-image: url("../img/logo/redmi.png") !important;
+    width: 220px !important;
+    height: 103px !important;
+}
+div.redmi-white {
+    background-image: url("../img/logo/redmi_white.png") !important;
+    width: 200px !important;
+    height: 100px !important;
+}
+div.asus-orig {
+    background-image: url("../img/logo/asus_orig.png") !important;
+    width: 150px !important;
+    height: 71px !important;
 }
 
 /* END LOGO 

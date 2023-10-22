@@ -1442,25 +1442,25 @@ function addAriaWebControlLink() {
 // IXBT Community: http://forum.ixbt.com/topic.cgi?id=14:63903:l#l
 // Prometheus: http://4pda.ru/forum/index.php?showtopic=714487&view=getnewpost
 // Copyright: http://prometheus.freize.net/distribution.html
-function appendCopyright() {
-    var subFooter = jQuery('<div id="subFooter"></div>');
-    var copyright1 = jQuery('<div align="center" class="copyright"></div>');
-    var copyright2 = jQuery('<div align="center" class="copyright"></div>');
-    var copyright3 = jQuery('<div align="center" class="copyright"></div>');
+// function appendCopyright() {
+    // var subFooter = jQuery('<div id="subFooter"></div>');
+    // var copyright1 = jQuery('<div align="center" class="copyright"></div>');
+    // var copyright2 = jQuery('<div align="center" class="copyright"></div>');
+    // var copyright3 = jQuery('<div align="center" class="copyright"></div>');
     
-    var date = new Date();
-    copyright1.append('<a href="https://bitbucket.org/padavan/rt-n56u" target="blank">© 2011-' + date.getFullYear() + ' Padavan &amp; N56U project community</a>');
-    copyright2.append('<a href="http://4pda.ru/forum/index.php?showtopic=686221&st=240&view=findpost&p=42644113" target="blank">Skins by Dave Medissn for 4PDA</a>');
-    copyright3.append('<a href="http://prometheus.freize.net/distribution.html" target="blank">Compiled by Prometheus. Firmware distribution is prohibited</a>');
+    // var date = new Date();
+    // copyright1.append('<a href="https://bitbucket.org/padavan/rt-n56u" target="blank">© 2011-' + date.getFullYear() + ' Padavan &amp; N56U project community</a>');
+    // copyright2.append('<a href="http://4pda.ru/forum/index.php?showtopic=686221&st=240&view=findpost&p=42644113" target="blank">Skins by Dave Medissn for 4PDA</a>');
+    // copyright3.append('<a href="http://prometheus.freize.net/distribution.html" target="blank">Compiled by Prometheus. Firmware distribution is prohibited</a>');
     
-    subFooter.append(copyright1, copyright3, copyright2);
-    jQuery('#footer').after(subFooter);
+    // subFooter.append(copyright1, copyright3, copyright2);
+    // jQuery('#footer').after(subFooter);
 
     // hide original copyright
-    var head = jQuery("head");
-    var selector = '#footer {display: none}';
-    head.append('<style id="hideCopyright" type="text/css">' + selector + '</style>');
-}
+    // var head = jQuery("head");
+    // var selector = '#footer {display: none}';
+    // head.append('<style id="hideCopyright" type="text/css">' + selector + '</style>');
+// }
 
 // Download links:
 // Prometheus: http://prometheus.freize.net/index.html
@@ -1492,7 +1492,7 @@ jQuery(document).ready(function() {
     } else {
     	loadThisScriptInIframe();
         executeHacks();
-        appendCopyright();
+        // appendCopyright();
         replaceAsusTo(findRouterId());
         addYMDFix();
         addHighchartsFix();
