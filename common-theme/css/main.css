@@ -239,15 +239,15 @@ div.temp-logo {
 
 div.RP-AC56,
 div.RT-AC1200,
+div.RT-AC1200GU,
 div.RT-AC1200HP,
 div.RT-AC51U,
 div.RT-AC54U,
 div.RT-N11P,
+div.RT-N11PB1,
 div.RT-N14U,
 div.RT-N56U,
 div.RT-N56UB1,
-div.RT-N65U,
-div.RT-AC1200GU,
 div.asus {
     background-image: url("/bootstrap/img/asus_logo.png") !important;
     width: 150px !important;
@@ -328,8 +328,8 @@ div.xiaomi-friends {
     width: 220px !important;
     height: 100px !important;
 }
-div.WT3020,
 div.WT3020A,
+div.WT3020H,
 div.nexx {
     background-image: url("../img/logo/nexx.png") !important;
     width: 220px !important;
@@ -341,38 +341,45 @@ div.samsung {
     width: 220px !important;
     height: 100px !important;
 }
-div.MQ-WITI-512,
 div.MQ-WITI-256,
+div.MQ-WITI-512,
 div.maker {
     background-image: url("../img/logo/maker.png") !important;
     width: 220px !important;
     height: 100px !important;
 }
 div.ZBT-WE1326,
+div.ZBT-WE826T2,
 div.ZBT-WG3526,
 div.zbt {
     background-image: url("../img/logo/zbt.png") !important;
     width: 220px !important;
     height: 100px !important;
 }
-div.U7621-03,
+div.UBNT-ERX,
+div.ubnt {
+    background-image: url("../img/logo/ubnt.png") !important;
+    width: 210px !important;
+    height: 100px !important;
+}
 div.U7621-06,
 div.unielec {
     background-image: url("../img/logo/unielec.png") !important;
     width: 220px !important;
     height: 100px !important;
 }
+div.NEWIFI-D1,
+div.NEWIFI-D2,
 div.NEWIFI-MINI,
 div.NEWIFI-Y1S,
-div.NEWIFI-D1,
 div.newifi {
     background-image: url("../img/logo/newifi.png") !important;
     width: 220px !important;
     height: 100px !important;
 }
+div.GL-MT300A,
 div.GL-MT300N,
 div.GL-MT300N-V2,
-div.GL-MT300A,
 div.gli {
     background-image: url("../img/logo/gli.png") !important;
     width: 220px !important;
