@@ -236,8 +236,8 @@ div.temp-logo {
     height: 71px;
 }
 
-div.asus {
-    background-image: url("/bootstrap/img/asus_logo.png") !important;
+div.padavan {
+    background-image: url("/bootstrap/img/padavan_logo.png") !important;
     width: 150px !important;
     height: 71px !important;
 }
@@ -252,8 +252,8 @@ div.RT-N11PB1,
 div.RT-N14U,
 div.RT-N56U,
 div.RT-N56UB1,
-div.asus-orig {
-    background-image: url("../img/logo/asus_orig.png") !important;
+div.asus {
+    background-image: url("../img/logo/asus.png") !important;
     width: 150px !important;
     height: 71px !important;
 }
@@ -389,6 +389,8 @@ div.MI-3,
 div.MI-3C,
 div.MI-3_SPI,
 div.MI-4,
+div.MI-4A_100M_BREED,
+div.MI-4C_BREED,
 div.MI-MINI,
 div.MI-NANO,
 div.MI-R3G,
